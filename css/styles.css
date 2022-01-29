@@ -37,7 +37,7 @@
 
 /* GLOBAL STYLES */
 
-
+/* HTML */
 html {
   font-size: 18px;
   box-sizing: border-box;
@@ -47,6 +47,7 @@ html {
 }
 
 
+/* Headers */
 h1, h2, h3, h4 {
   font-family: var(--header-font-family);
   font-weight: 900;
@@ -54,6 +55,7 @@ h1, h2, h3, h4 {
 }
 
 
+/* Images */
 .img {
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,6 +63,7 @@ h1, h2, h3, h4 {
 }
 
 
+/* Buttons */
 .btn {
   height: 4rem;
   width: 14.444444rem;
