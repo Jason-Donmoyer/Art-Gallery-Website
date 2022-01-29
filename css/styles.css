@@ -1,0 +1,176 @@
+/*##############################*/
+          /* IMPORTS */
+/*##############################*/
+
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+
+
+/*##############################*/
+         /* VARIABLES */
+/*##############################*/
+
+
+:root {
+
+  /* Font-family */
+  --main-font-family: 'Outfit', sans-serif;
+  --header-font-family: 'Big Shoulders Display', cursive;
+
+
+  /* Colors */
+  --gold: #D5966C;
+  --almost-black: #151515;
+  --dark-grey: #444;
+  --white: #fff;
+
+}
+
+
+/*##############################*/
+          /* STYLES */
+/*##############################*/
+
+
+/* GLOBAL STYLES */
+
+
+html {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: var(--header-font-family);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+.img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.btn {
+  height: 4rem;
+  width: 14.444444rem;
+  display: flex;
+}
+
+
+/* STYLES */
+
+
+/* Body - main-content-container */
+.main-content-container {
+  background-color: #FCFAF9;
+  font-family: var(--main-font-family);
+  font-weight: 300;
+}
+
+
+/* HEADER */
+
+/* Hero Image */
+.hero-img {
+  height: 13.333333rem;
+  background-image: url(../assets/mobile/image-hero.jpg);
+}
+
+
+/* Header Copy Container */
+.main-header-copy-container {
+  margin: 0 0.888889rem 6.666667rem 0.888889rem;
+}
+
+
+/* Main Heading */
+.main-heading {
+  margin-top: 1.777778rem;
+  margin-bottom: 1.777778rem;
+  font-size: 3.333333rem;
+  line-height: 3.055556rem;
+  color: var(--almost-black);
+}
+
+
+/* Main Header Copy */
+.main-header-copy {
+  line-height: 1.555556rem;
+  color: var(--dark-grey);
+}
+
+
+/* OUR LOCATION BUTTON */
+
+/* Location Btn Container */
+.our-location-btn-container {
+  margin-top: 1.777778rem;
+}
+
+/* Location Btn Copy Container */
+.our-location-btn-copy-container {
+  background-color: var(--almost-black);
+  height: 4rem;
+  width: 11.333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+
+/* Location Btn Copy */
+.our-location-btn-copy {
+  font-size: 1.111111rem;
+  font-weight: 800;
+  line-height: 1.333333rem;
+  letter-spacing: 0.20202rem;
+  color: var(--white);
+}
+
+
+/* Arrow Icon Right */
+.arrow-icon-right {
+  height: 4rem;
+  width: 3.111111rem;
+  background-color: var(--gold);
+  background-image: url(../assets/icon-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.content-header-img {
+  height: 320px;
+  background-image: url(../assets/mobile/image-grid-1.jpg);
+}
+
+
+.bench-img {
+  height: 480px;
+  background-image: url(../assets/mobile/image-grid-2.jpg);
+}
+
+
+.visitors-img {
+  height: 200px;
+  background-image: url(../assets/mobile/image-grid-3.jpg);
+}
+
+
+
+.map-container {
+  height: 550px;
+  background-image: url(../assets/mobile/image-map.png);
+}
