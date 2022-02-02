@@ -66,10 +66,37 @@ h1, h2, h3, h4 {
 /* Buttons */
 .btn {
   height: 4rem;
-  width: 14.444444rem;
+  /* width: 14.444444rem; */
   display: flex;
 }
 
+
+.btn-copy-container {
+  background-color: var(--almost-black);
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+
+.btn-copy {
+  font-size: 1.111111rem;
+  font-weight: 800;
+  line-height: 1.333333rem;
+  letter-spacing: 0.20202rem;
+  color: var(--white);
+}
+
+
+.arrow-icon {
+  height: 4rem;
+  width: 3.111111rem;
+  background-color: var(--gold);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* STYLES */
 
@@ -123,34 +150,19 @@ h1, h2, h3, h4 {
 
 /* Location Btn Copy Container */
 .our-location-btn-copy-container {
-  background-color: var(--almost-black);
-  height: 4rem;
   width: 11.333333rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
 }
 
 
 /* Location Btn Copy */
-.our-location-btn-copy {
-  font-size: 1.111111rem;
-  font-weight: 800;
-  line-height: 1.333333rem;
-  letter-spacing: 0.20202rem;
-  color: var(--white);
-}
+/* .our-location-btn-copy {
+  
+} */
 
 
 /* Arrow Icon Right */
 .arrow-icon-right {
-  height: 4rem;
-  width: 3.111111rem;
-  background-color: var(--gold);
   background-image: url(../assets/icon-arrow-right.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 
@@ -301,6 +313,8 @@ h1, h2, h3, h4 {
 .social-icon {
   height: 1.111111rem;
   width: 1.111111rem;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -328,7 +342,85 @@ h1, h2, h3, h4 {
 /*##############################*/
 
 
+/* Map Container */
 .map-container {
-  height: 550px;
+  height: 30.555556rem;
   background-image: url(../assets/mobile/image-map.png);
+}
+
+
+/* Back To Home Btn */
+.back-to-home-btn-copy-container {
+  width: 11.555556rem;
+}
+
+
+/* BTH Btn Icon */
+.arrow-icon-left {
+  background-image: url(../assets/icon-arrow-left.svg);
+}
+
+
+/* GALLERY LOCATION INFO CONTAINER */
+
+
+/* Gallery Location Info Container */
+.gallery-location-info-container {
+  background-color: var(--almost-black);
+  padding-left: 0.888889rem;
+  padding-right: 0.888889rem;
+  height: 27.388889rem;
+}
+
+
+/* Gallery Location h1 */
+.gallery-location-header {
+  padding-top: 2.666667rem;
+  padding-bottom: 2.666667rem;
+  font-size: 2.777778rem; 
+  color: var(--white);
+}
+
+
+/* Gallery Address Container*/
+.gallery-address-container {
+  height: 16.444444rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Gallery Street Address */
+.gallery-street-location {
+  font-size: 1.777778rem;
+  line-height: 1.777778rem;
+  color: var(--gold);
+}
+
+/* Gallery Street Address Container */
+.gallery-street-address-container {
+  height: 4.666667rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Gallery Address */
+.gallery-address {
+  line-height: 1.555556rem;
+}
+
+
+/* Gallery Info Container */
+.gallery-info-container {
+  height: 7.777778rem;
+  display: flex;
+  align-items: center;
+}
+
+
+/* Gallery Location Info */
+.gallery-location-info {
+  line-height: 1.555556rem;
 }

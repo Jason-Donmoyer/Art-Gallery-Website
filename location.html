@@ -13,18 +13,29 @@
 <body class="main-container">
 
   <section class="img map-container">
-    <div class="btn home-btn">Back to Home</div>
+    <div id="back-to-home-btn" class="btn back-to-home-btn-container">
+      <div class="arrow-icon arrow-icon-left"></div>
+      <div class="btn-copy-container back-to-home-btn-copy-container">
+        <h4 class="btn-copy back-to-home-btn-copy">Back To Home</h4>
+      </div>
+    </div>
   </section>
 
-  <section class="gallery-location-info">
+  <section class="gallery-location-info-container">
     <h1 class="gallery-location-header">Our location</h1>
-    <h2 class="gallery-street-location">99 King Street</h2>
-    <p class="gallery-address">Newport
-      RI 02840
-      United States of America</p>
-      <p class="gallery-location-info">Our newly opened gallery is located near the Edward King House on 99 King 
-        Street, the Modern Art Gallery is free to all visitors and open seven days 
-        a week from 8am to 9pm.</p>
+    <div class="gallery-address-container">
+      <h2 class="gallery-street-location">99 King Street</h2>
+      <div class="gallery-street-address-container">
+        <p class="gallery-address">Newport<br>
+          RI 02840<br>
+          United States of America</p>
+      </div>
+      <div class="gallery-info-container">
+        <p class="gallery-location-info">Our newly opened gallery is located near the Edward King House on 99 King 
+          Street, the Modern Art Gallery is free to all visitors and open seven days 
+          a week from 8am to 9pm.</p>
+      </div>
+    </div>
   </section>
 
   <footer class="footer gallery-location-footer">
@@ -42,5 +53,6 @@
     </div>
   </footer>
 
+<script src="main.js"></script>
 </body>
 </html>
