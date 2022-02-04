@@ -414,7 +414,7 @@ h1, h2, h3, h4 {
 
 
 /* Gallery Info Container */
-.gallery-info-container {
+.location-info-container {
   height: 7.777778rem;
   display: flex;
   align-items: center;
@@ -502,6 +502,15 @@ h1, h2, h3, h4 {
   /* Our Location Buttons */
   .our-location-btn-container {
     margin-top: 2.666667rem;
+  }
+
+
+  /* Main Content Container */
+  .main-content-container {
+    margin-left: 2.222222rem;
+    margin-right: 2.222222rem;
+    display: grid;
+    /* height:26.666667rem; */
   }
 
 
