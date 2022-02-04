@@ -424,3 +424,27 @@ h1, h2, h3, h4 {
 .gallery-location-info {
   line-height: 1.555556rem;
 }
+
+
+/* Gallery Location Footer */
+.gallery-location-footer {
+  background-color: var(--gold);
+}
+
+
+/* Location FB Icon */
+.location-fb-icon {
+  background-image: url(../assets/location-icon-facebook.svg);
+}
+
+
+/* Location Insta Icon */
+.location-insta-icon {
+  background-image: url(../assets/location-icon-instagram.svg);
+}
+
+
+/* Location Twitter Icon */
+.location-twitter-icon {
+  background-image: url(../assets/location-icon-twitter.svg);
+}
