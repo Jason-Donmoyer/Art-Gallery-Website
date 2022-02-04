@@ -31,6 +31,7 @@
 
 
 /*##############################*/
+       /* MOBILE FIRST */
           /* STYLES */
 /*##############################*/
 
@@ -447,4 +448,61 @@ h1, h2, h3, h4 {
 /* Location Twitter Icon */
 .location-twitter-icon {
   background-image: url(../assets/location-icon-twitter.svg);
+}
+
+
+/*##############################*/
+       /* MEDIA QUERIES */
+/*##############################*/
+
+
+/* TABLET */
+/* More than 420px */
+
+
+@media only screen and (min-width: 420px) {
+
+
+  /* Main Header */
+  .main-header {
+    height: 38.888889rem;
+    margin-bottom: 6.666667rem;
+    display: flex;
+    align-items: center;
+  }
+
+
+  /* Hero Image */
+  .hero-img {
+    background-image: url(../assets/tablet/image-hero.jpg);
+    height: 38.888889rem;
+    width: 56%;
+  }
+
+
+  /* Main Header Copy Container */
+  .main-header-copy-container {
+    height: 22.777778rem;
+    width: 18.833333rem;
+    margin: 0;
+    position: relative;
+    right: 2.222222rem;
+  }
+
+
+  /* Main Heading */
+  .main-heading {
+    font-size: 3.888889rem;
+    line-height: 3.611111rem;
+    margin-top: 0;
+    margin-bottom: 2.666667rem;
+  }
+
+
+  /* Our Location Buttons */
+  .our-location-btn-container {
+    margin-top: 2.666667rem;
+  }
+
+
 }
