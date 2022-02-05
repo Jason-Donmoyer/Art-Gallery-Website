@@ -592,5 +592,37 @@ h1, h2, h3, h4 {
   }
 
 
+  /* FOOTER */
+
+  /* Footer */
+  .footer {
+    height: 12rem;
+    padding: 3.111111rem 2.194444rem;
+    flex-direction: row;
+  }
+
+
+  /* Footer Header Container */
+  .footer-header-container {
+    width: 6.113889rem;
+  }
+
+
+  /* Footer h1 */
+  .footer-header {
+    font-size: 1.3rem;
+  }
+
+
+  /* Footer Copy Container */
+  .footer-copy-container {
+    width: 15.611111rem;
+  }
+
+
+  /* Social Icons Container */
+  
+
+
 
 }
