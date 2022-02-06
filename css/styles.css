@@ -379,6 +379,7 @@ h1, h2, h3, h4 {
   padding-top: 2.666667rem;
   padding-bottom: 2.666667rem;
   font-size: 2.777778rem; 
+  line-height: 2.5rem;
   color: var(--white);
 }
 
@@ -620,7 +621,48 @@ h1, h2, h3, h4 {
   }
 
 
-  /* Social Icons Container */
+/*##############################*/
+    /* LOCATION PAGE STYLES */
+/*##############################*/
+
+
+/* Map Container */
+.map-container {
+  height: 33.333333rem;
+  background-image: url(../assets/tablet/image-map@2x.png);
+}
+
+
+/* Back To Home Button */
+.back-to-home-btn-container {
+  margin-left: 2.166667rem;
+}
+
+
+/* Gallery Location Info Container */
+.gallery-location-info-container {
+  height: 24.222222rem;
+  padding: 4.888889rem 2.194444rem 4.444444rem 2.194444rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Gallery Location h1 */
+.gallery-location-header {
+  width: 12.388889rem;
+  padding: 0;
+  font-size: 3.055556rem;
+  line-height: 2.777778rem;
+}
+
+
+/* Gallery Address Container */
+.gallery-address-container {
+  /* height: 14.888889rem; */
+  width: 22.111111rem;
+}
+
   
 
 
