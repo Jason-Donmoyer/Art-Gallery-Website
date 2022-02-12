@@ -112,6 +112,13 @@ h1, h2, h3, h4 {
 
 /* HEADER */
 
+
+/* Desktop Hero Background - display: none on mobile and tablet */
+.desktop-hero-background {
+  display: none;
+}
+
+
 /* Hero Image */
 .hero-img {
   height: 13.333333rem;
@@ -621,50 +628,127 @@ h1, h2, h3, h4 {
   }
 
 
-/*##############################*/
-    /* LOCATION PAGE STYLES */
-/*##############################*/
+  /*##############################*/
+      /* LOCATION PAGE STYLES */
+  /*##############################*/
 
 
-/* Map Container */
-.map-container {
-  height: 33.333333rem;
-  background-image: url(../assets/tablet/image-map@2x.png);
-}
+  /* Map Container */
+  .map-container {
+    height: 33.333333rem;
+    background-image: url(../assets/tablet/image-map@2x.png);
+  }
 
 
-/* Back To Home Button */
-.back-to-home-btn-container {
-  margin-left: 2.166667rem;
-}
+  /* Back To Home Button */
+  .back-to-home-btn-container {
+    margin-left: 2.166667rem;
+  }
 
 
-/* Gallery Location Info Container */
-.gallery-location-info-container {
-  height: 24.222222rem;
-  padding: 4.888889rem 2.194444rem 4.444444rem 2.194444rem;
-  display: flex;
-  justify-content: space-between;
-}
+  /* Gallery Location Info Container */
+  .gallery-location-info-container {
+    height: 24.222222rem;
+    padding: 4.888889rem 2.194444rem 4.444444rem 2.194444rem;
+    display: flex;
+    justify-content: space-between;
+  }
 
 
-/* Gallery Location h1 */
-.gallery-location-header {
-  width: 12.388889rem;
-  padding: 0;
-  font-size: 3.055556rem;
-  line-height: 2.777778rem;
-}
+  /* Gallery Location h1 */
+  .gallery-location-header {
+    width: 12.388889rem;
+    padding: 0;
+    font-size: 3.055556rem;
+    line-height: 2.777778rem;
+  }
 
 
-/* Gallery Address Container */
-.gallery-address-container {
-  /* height: 14.888889rem; */
-  width: 22.111111rem;
-}
+  /* Gallery Address Container */
+  .gallery-address-container {
+    /* height: 14.888889rem; */
+    width: 22.111111rem;
+  }
 
   
+}
 
+
+/* DESKTOP */
+/* More than 1024px */
+
+
+@media screen and (min-width: 1025px) {
+
+
+  /* Main Header */
+  .main-header {
+    height: 44.444444rem;
+  }
+
+
+  /* Hero Background */
+  .desktop-hero-background {
+    display: block;
+    height: 44.444444rem;
+    width: 31%;
+    background-color: var(--almost-black);
+  }
+
+
+  /* Hero Image */
+  .hero-img {
+    height: 44.444444rem;
+    width: 37.5%;
+    background-image: url(../assets/desktop/image-hero@2x.jpg);
+  }
+
+
+  /* Main Header Copy Container */
+  .main-header-copy-container {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: absolute;
+    left: 0rem;
+    right: 0rem;
+    padding-left: 11%;
+    padding-right: 11%;
+  }
+
+
+  /* Main Heading Container */
+  .main-heading-container {
+    width: 28.555556rem;
+  }
+
+
+  /* Main Heading */
+  .main-heading {
+    font-size: 5.333333rem;
+    line-height: 4.888889rem;
+    color: var(--white);
+    mix-blend-mode: difference;
+    padding-right: 3.333333rem;
+  }
+
+
+  /* Desktop Header Copy Container */
+  .desktop-header-copy-container {
+    width: 19.444444rem;
+    height: 16.444444rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  /* Main Header Copy */
+  .main-header-copy {
+    font-size: 1.222222rem;
+    line-height: 1.777778rem;
+  }
 
 
 }
